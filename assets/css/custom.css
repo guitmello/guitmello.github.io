@@ -20,11 +20,6 @@ p {
   letter-spacing: 0.5px;
 }
 
-.text-focus {
-  font-weight: 600; 
-  text-transform: uppercase;
-}
-
 /* Navbar */
 #menu {
   transition: all ease-in-out 0.3s;
@@ -75,14 +70,20 @@ p {
   height: 100%;
 }
 
-.imgperfil img {
+.img-perfil {
   width: 180px;
+  margin: auto;
   margin-top: -90px;
+  margin-bottom: 60px;
+}
+.img-perfil img {
+  width: 100%;
   border-radius: 50%;
+  
 }
 
 /* Knowledges */
-#about, #knowledges, #objectives {
+#about, #experiences, #knowledges, #objectives {
   padding: 40px 0px;
 }
 
@@ -107,8 +108,12 @@ p {
   margin-bottom: 0px;
 }
 
-.exp {
-  padding-bottom: 20px;
+.row-padding {
+  padding-bottom: 40px;
+}
+.row-padding p {
+  font-size: 14px;
+  color: #f2f2f2;
 }
 
 .two-icon{
@@ -120,10 +125,7 @@ p {
 .ico {
   font-size: 30px;
 }
-.exp p {
-  font-size: 14px;
-  color: #f2f2f2;
-}
+
 
 .divider {
   content: "";
