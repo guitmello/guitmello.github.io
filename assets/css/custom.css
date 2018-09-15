@@ -31,6 +31,15 @@ p {
 .navbar li a:hover {
   text-shadow: 1px 1px 10px rgba(255, 255, 255, 1);
 }
+.navbar-toggler-icon {
+  color: #ffffff !important;
+}
+.social {
+  padding-left: 0px;
+}
+.social li {
+  display: inline-block;
+}
 .social li a i {
   font-size: 26px;
   transition: all 0.3s ease-in-out;
